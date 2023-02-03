@@ -14,7 +14,7 @@ modelname0 = r"{}\\U-Net_256.pt"
 modelname1 = r"{}\\U-Net_256.pt"
 isort0 = ISORT(scale_img_devide=2, HALF=False , weights=modelname0)
 isort1 = ISORT(scale_img_devide=2, HALF=False , weights=modelname1)
-save_image = True
+save_image = False
 
 class data_input(BaseModel):
     image: bytes = None
