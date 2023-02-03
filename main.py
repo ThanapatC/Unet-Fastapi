@@ -94,4 +94,4 @@ async def pred(request: data_input):
 
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", host="210.4.134.226", port=8000)
+    uvicorn.run("main:app", host="0.0.0.0", port=8000)
